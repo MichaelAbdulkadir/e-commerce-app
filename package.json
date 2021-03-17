@@ -1,0 +1,23 @@
+{
+  "name": "e-commerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelAbdulkadir/e-commerce-app.git"
+  },
+  "author": "Michael Abdulkadir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelAbdulkadir/e-commerce-app/issues"
+  },
+  "homepage": "https://github.com/MichaelAbdulkadir/e-commerce-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
